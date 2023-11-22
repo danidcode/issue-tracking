@@ -1,12 +1,13 @@
 import { Container } from "@mui/material"
 import Header from "./Header"
+import IssuesList from "./IssuesList"
 
 const MainContent = () => {
     return (
         <>
             <Header />
             <Container>
-                <div>MainContent</div>
+                <IssuesList />
             </Container>
         </>
 

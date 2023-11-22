@@ -7,7 +7,7 @@ import { LogoutButton } from './LogoutButton';
 const Header = () => {
 
     return (
-        <Box sx={{ flexGrow: 1 }}>
+        <Box sx={{ flexGrow: 1, mb: "2rem" }}>
             <AppBar position="static">
                 <Toolbar>
 
